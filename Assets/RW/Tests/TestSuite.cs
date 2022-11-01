@@ -61,7 +61,7 @@ namespace Tests
 
             Object.Destroy(game.gameObject);
         }
-        /*[UnityTest]
+        [UnityTest]
         public IEnumerator NewGameRestartsGame()
         {
             //1
@@ -71,6 +71,7 @@ namespace Tests
             Assert.False(game.isGameOver);
             yield return null;
         }
+
         [UnityTest]
         public IEnumerator LaserMovesUp()
         {
@@ -82,6 +83,7 @@ namespace Tests
             // 3
             Assert.Greater(laser.transform.position.y, initialYPos);
         }
+        /*
         [UnityTest]
         public IEnumerator LaserDestroysAsteroid()
         {
