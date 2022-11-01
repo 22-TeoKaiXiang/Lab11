@@ -44,7 +44,7 @@ namespace Tests
             Object.Destroy(game.gameObject);
         }
 
-        /*[UnityTest]
+        [UnityTest]
         public IEnumerator GameOverOccursOnAsteroidCollision()
         {
             GameObject gameGameObject =
@@ -61,7 +61,7 @@ namespace Tests
 
             Object.Destroy(game.gameObject);
         }
-        [UnityTest]
+        /*[UnityTest]
         public IEnumerator NewGameRestartsGame()
         {
             //1
