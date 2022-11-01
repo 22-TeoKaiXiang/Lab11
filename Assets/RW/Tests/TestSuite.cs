@@ -10,7 +10,7 @@ namespace Tests
     {
         private Game game;
 
-        /* [SetUp]
+        [SetUp]
         public void Setup()
         {
             GameObject gameGameObject =
@@ -21,7 +21,7 @@ namespace Tests
         public void Teardown()
         {
             Object.Destroy(game.gameObject);
-        } */
+        } 
 
 
         // 1
