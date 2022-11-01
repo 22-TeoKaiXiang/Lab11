@@ -83,7 +83,7 @@ namespace Tests
             // 3
             Assert.Greater(laser.transform.position.y, initialYPos);
         }
-        
+        /*
         [UnityTest]
         public IEnumerator LaserDestroysAsteroid()
         {
@@ -107,7 +107,7 @@ namespace Tests
             yield return new WaitForSeconds(0.1f);
             // 2
             Assert.AreEqual(game.score, 1);
-        }
+        } */
 
 
 
